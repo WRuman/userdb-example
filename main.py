@@ -35,6 +35,7 @@ def main():
     user_db = []
     if path.exists(DEFAULT_LOCATION):
         user_db = load_users(DEFAULT_LOCATION)
+        print('{} current user(s)'.format(len(user_db)))
 
     for u in user_db:
         print(u['username'])
