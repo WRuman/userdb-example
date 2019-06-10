@@ -3,7 +3,7 @@
 import bcrypt
 from getpass import getpass as password_input
 import json
-from os import path, urandom
+from os import path
 
 DEFAULT_LOCATION = path.expanduser('~/userdata.json')
 
